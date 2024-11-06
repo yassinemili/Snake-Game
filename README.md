@@ -41,7 +41,7 @@ git clone https://github.com/yassinemili/Snake-Game-python
 Change into the project directory:
 
 ```
-cd Snake-Game-py
+cd Snake-Game-python
 ```
 
 ### Run the Game:
