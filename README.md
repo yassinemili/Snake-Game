@@ -1,42 +1,90 @@
 # Elec Snake
-A snake game written in Python using the Pygame library. Join the fun and challenge your reflexes with the classic Snake game! Developed for the ELEC Club's open days, this exciting game brings a modern twist to the beloved retro experience. Navigate the snake to eat food and grow, but watch out—you can't run into walls or yourself! Play it on full screen for an immersive experience, and see how long you can keep the snake going. Can you beat your high score? Let’s find out!
 
+Welcome to **Elec Snake**, a classic Snake game developed in Python using the Pygame library. This exciting version of the beloved retro game was created for the **ELEC Club's open days**. Join the fun, challenge your reflexes, and see how long you can keep the snake alive as it grows longer with every piece of food it eats. But be careful—hitting the walls or yourself ends the game! For the best experience, play it on full screen and try to beat your high score.
+
+---
 
 ## Prerequisites
-* [Python](https://www.python.org)
-* [Pygame](https://www.pygame.org/wiki/GettingStarted), an open source Python library for making multimedia applications
 
+Before running the game, ensure you have the following installed:
 
-## Installing
-Download the Python 3 installer package from the official website and install it, if not installed previously.
+- **[Python](https://www.python.org)** (version 3.x)
+- **[Pygame](https://www.pygame.org/wiki/GettingStarted)**, an open-source Python library for creating multimedia applications.
 
-Run the following in the terminal to install the Pygame library
+---
+
+## Installation
+
+1. **Install Python:**
+   If you haven’t already, download and install Python 3 from the official website:
+   [Download Python](https://www.python.org/downloads/).
+
+2. **Install Pygame:**
+   After installing Python, open your terminal and run the following command to install the Pygame library:
+   ```bash
+   pip3 install pygame
+
+---
+
+## Running the Application
+
+### Clone the Repository: 
+
+Clone the Snake Game repository to your local machine using the following command:
+
 ```
-pip3 install pygame
+git clone https://github.com/yassinemili/Snake-Game-python
 ```
 
+### Navigate to the Game Directory: 
 
-## Running the application
-Download the source code from the repository and run the file just as any other Python script (.py) file.
+Change into the project directory:
+
+```
+cd Snake-Game-py
+```
+
+### Run the Game:
+Start the game by running the Python script:
+
 ```
 python3 ElecSnake.py
 ```
 
-The `difficulty` variable can be changed with the values provided in the comment to set the difficulty level.
+---
 
+## Difficulty Settings
 
-## Difficulty settings
-` Easy      ->  10
- Medium    ->  25
- Hard      ->  40
- Harder    ->  60
- Impossible->  120`
+You can modify the difficulty of the game by changing the `difficulty` variable in the script. The available difficulty levels are:
 
+- **Easy**      → 10
+- **Medium**    → 25
+- **Hard**      → 40
+- **Harder**    → 60
+- **Impossible** → 120
 
-## Keyboard Uses
-` esc for leave game`
-` space for restart game when you died `
+Each level affects the speed of the snake, making the game progressively more challenging.
 
+---
 
-rest of the code is a visualization of the window snake shape and .......................
-## You can do any changes you want jus follow the coments in the code 
+## Keyboard Controls
+
+- **ESC** – Exit the game at any time.
+- **SPACE** – Restart the game after dying.
+
+---
+
+## Customization
+
+Feel free to modify the game as you wish! The code is well-commented, and you can adjust the following:
+
+- Snake appearance (color and size).
+- Background and visual effects.
+- Difficulty settings.
+- Game logic and features.
+
+If you’re looking for something specific to change, check the comments in the code for guidance.
+
+---
+
+Enjoy the game, and see if you can beat your high score! 🎮🐍
